@@ -10,7 +10,7 @@ import Pokeinfo from './Pokeinfo'
 // import { Grid, } from '@mui/material/Unstable_Grid2'; // Grid version 2
 
 const Main = () => {
-    const [url, seturl]=useState('https://pokeapi.co/api/v2/pokemon?limit=10');
+    const [url, seturl]=useState('https://pokeapi.co/api/v2/pokemon?limit=8');
     const [pokeData, setpokeData]=useState([]);
     const [loading, setloading]=useState(true);
     const [nexturl, setnexturl]=useState();
