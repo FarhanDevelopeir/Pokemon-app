@@ -83,7 +83,7 @@ const Main = () => {
             </div>
             
             <div style={{
-                marginTop:'60px',
+                marginTop:'20px',
                 position:'fixed',
                 right:'15%'
 
