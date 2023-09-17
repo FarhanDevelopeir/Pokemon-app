@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #FCEEC8;
+}
+.Container{
+    
+    border-radius: 10px;
+}
+.grid{
+    border: 2px solid rebeccapurple;
+    border-radius: 20px;
+    background-color:#9EDEF9 ;
+    
+    /* background-color: #9EDEF9; */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.grid:hover{
+    background-color:#FCEEC8 ;
+    cursor: pointer;
+}
